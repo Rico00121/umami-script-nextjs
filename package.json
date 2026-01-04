@@ -1,0 +1,47 @@
+{
+  "name": "umami-script-nextjs",
+  "version": "1.0.0",
+  "description": "A simple, lightweight Next.js component for integrating Umami analytics",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "umami",
+    "analytics",
+    "nextjs",
+    "next.js",
+    "tracking",
+    "privacy",
+    "open-source"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rico00121/umami-script-nextjs"
+  },
+  "bugs": {
+    "url": "https://github.com/Rico00121/umami-script-nextjs/issues"
+  },
+  "homepage": "https://github.com/Rico00121/umami-script-nextjs#readme",
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "umami-script-nextjs": "^1.0.0"
+  }
+}
